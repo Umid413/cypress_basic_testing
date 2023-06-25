@@ -1,0 +1,24 @@
+[
+    {
+        "name":"Standart User",
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "expected": "Products"
+    },
+    {
+        "name":"Incorret User",
+        "username": "incorrect_user",
+        "password": "123456789",
+        "expected": "Epic sadface: Username and password do not match any user in this service"
+    },
+    {
+        "name":"Locked out User",
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "expectedSecond": "Epic sadface: Sorry, this user has been locked out."
+    },
+    {
+        "baseUrl": "http://localhost:3000/"
+    }
+]
+
